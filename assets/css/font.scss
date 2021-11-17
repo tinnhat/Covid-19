@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-Black.eot");
+  src: url("../fonts/Gelion-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-Black.woff2") format("woff2"),
+    url("../fonts/Gelion-Black.woff") format("woff"),
+    url("../fonts/Gelion-Black.ttf") format("truetype"),
+    url("../fonts/Gelion-Black.svg#Gelion-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-BlackItalic.eot");
+  src: url("../fonts/Gelion-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Gelion-BlackItalic.woff") format("woff"),
+    url("../fonts/Gelion-BlackItalic.ttf") format("truetype"),
+    url("../fonts/Gelion-BlackItalic.svg#Gelion-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-Bold.eot");
+  src: url("../fonts/Gelion-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-Bold.woff2") format("woff2"),
+    url("../fonts/Gelion-Bold.woff") format("woff"),
+    url("../fonts/Gelion-Bold.ttf") format("truetype"),
+    url("../fonts/Gelion-Bold.svg#Gelion-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-Light.eot");
+  src: url("../fonts/Gelion-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-Light.woff2") format("woff2"),
+    url("../fonts/Gelion-Light.woff") format("woff"),
+    url("../fonts/Gelion-Light.ttf") format("truetype"),
+    url("../fonts/Gelion-Light.svg#Gelion-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-Medium.eot");
+  src: url("../fonts/Gelion-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-Medium.woff2") format("woff2"),
+    url("../fonts/Gelion-Medium.woff") format("woff"),
+    url("../fonts/Gelion-Medium.ttf") format("truetype"),
+    url("../fonts/Gelion-Medium.svg#Gelion-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-LightItalic.eot");
+  src: url("../fonts/Gelion-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-LightItalic.woff2") format("woff2"),
+    url("../fonts/Gelion-LightItalic.woff") format("woff"),
+    url("../fonts/Gelion-LightItalic.ttf") format("truetype"),
+    url("../fonts/Gelion-LightItalic.svg#Gelion-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-BoldItalic.eot");
+  src: url("../fonts/Gelion-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Gelion-BoldItalic.woff") format("woff"),
+    url("../fonts/Gelion-BoldItalic.ttf") format("truetype"),
+    url("../fonts/Gelion-BoldItalic.svg#Gelion-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-Regular.eot");
+  src: url("../fonts/Gelion-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-Regular.woff2") format("woff2"),
+    url("../fonts/Gelion-Regular.woff") format("woff"),
+    url("../fonts/Gelion-Regular.ttf") format("truetype"),
+    url("../fonts/Gelion-Regular.svg#Gelion-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-MediumItalic.eot");
+  src: url("../fonts/Gelion-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Gelion-MediumItalic.woff") format("woff"),
+    url("../fonts/Gelion-MediumItalic.ttf") format("truetype"),
+    url("../fonts/Gelion-MediumItalic.svg#Gelion-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion Regular";
+  src: url("../fonts/Gelion-RegularItalic.eot");
+  src: url("../fonts/Gelion-RegularItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-RegularItalic.woff2") format("woff2"),
+    url("../fonts/Gelion-RegularItalic.woff") format("woff"),
+    url("../fonts/Gelion-RegularItalic.ttf") format("truetype"),
+    url("../fonts/Gelion-RegularItalic.svg#Gelion-RegularItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-Thin.eot");
+  src: url("../fonts/Gelion-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-Thin.woff2") format("woff2"),
+    url("../fonts/Gelion-Thin.woff") format("woff"),
+    url("../fonts/Gelion-Thin.ttf") format("truetype"),
+    url("../fonts/Gelion-Thin.svg#Gelion-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion";
+  src: url("../fonts/Gelion-ThinItalic.eot");
+  src: url("../fonts/Gelion-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-ThinItalic.woff2") format("woff2"),
+    url("../fonts/Gelion-ThinItalic.woff") format("woff"),
+    url("../fonts/Gelion-ThinItalic.ttf") format("truetype"),
+    url("../fonts/Gelion-ThinItalic.svg#Gelion-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion Semi";
+  src: url("../fonts/Gelion-SemiBoldItalic.eot");
+  src: url("../fonts/Gelion-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/Gelion-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/Gelion-SemiBoldItalic.ttf") format("truetype"),
+    url("../fonts/Gelion-SemiBoldItalic.svg#Gelion-SemiBoldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gelion Semi";
+  src: url("../fonts/Gelion-SemiBold.eot");
+  src: url("../fonts/Gelion-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gelion-SemiBold.woff2") format("woff2"),
+    url("../fonts/Gelion-SemiBold.woff") format("woff"),
+    url("../fonts/Gelion-SemiBold.ttf") format("truetype"),
+    url("../fonts/Gelion-SemiBold.svg#Gelion-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

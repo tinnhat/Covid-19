@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+  &-logo {
+    display: flex;
+    align-items: center;
+  }
+  &-img {
+    width: 72px;
+    height: 72px;
+    margin-right: 10px;
+    &__text {
+      font-size: 22px;
+      font-weight: bold;
+      color: $text-title-color;
+    }
+  }
+  &-box-icon {
+    display: flex;
+    align-items: center;
+  }
+  &-copyright {
+    color: $text-black-color;
+    margin-top: 40px;
+  }
+}
+.icon-twitter,
+.icon-vimeo,
+.icon-youtube,
+.icon-fb {
+  margin-left: 40px;
+}
+.icon-youtube {
+  color: $red-button;
+}
+.icon-fb {
+  color: #0d8af0;
+}
+.icon-twitter {
+  color: #1d9bf0;
+}
+.icon-vimeo {
+  color: $text-title-color;
+}

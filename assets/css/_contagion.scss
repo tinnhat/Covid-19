@@ -1,0 +1,73 @@
+.contagion {
+  margin-top: 120px;
+}
+.contagion-box {
+  margin-top: 80px;
+  @include flex-box(center, space-between);
+}
+.contagion-item {
+  box-shadow: 2px 1px 24px 12px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 2px 1px 24px 12px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 2px 1px 24px 12px rgba(0, 0, 0, 0.04);
+  position: relative;
+  @include flex-box(center);
+  flex-direction: column;
+  text-align: center;
+  padding: 65px 52px 70px 53px;
+  width: calc(33.3333% - 30px);
+  border-radius: 10px;
+  &__img {
+    width: 260px;
+    height: 250px;
+  }
+  &__title {
+    color: $text-title-color;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: $text-black-color;
+    span {
+      display: block;
+    }
+  }
+  &::after {
+    content: "";
+    background-color: $main-red;
+    height: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+  &:hover {
+    box-shadow: 2px 1px 24px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.8s linear;
+    transform: scale(1.01);
+  }
+  &:hover::after {
+    animation: leftToRight 0.8s linear;
+    display: block;
+  }
+}
+// .contagion-item:hover.contagion-item::after {
+//   animation: leftToRight 0.8s linear;
+//   display: block;
+// }
+.contagion-item:nth-child(2) {
+  margin: 0 30px;
+}
+@keyframes leftToRight {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

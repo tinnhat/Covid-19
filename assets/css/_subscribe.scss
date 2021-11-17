@@ -1,0 +1,54 @@
+.subscribe {
+  text-align: center;
+  &-title {
+    color: $text-title-color;
+    font-size: 64px;
+    margin-bottom: 60px;
+    span {
+      display: block;
+    }
+  }
+  &-input {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 1px 24px 12px rgba(0, 0, 0, 0.04);
+    padding: 40px 250px 40px 40px;
+    border-radius: 50px;
+    min-width: 600px;
+  }
+}
+.subscribe-content {
+  position: relative;
+  margin-top: 150px;
+}
+.btn-submit {
+  font-size: 22px;
+  color: white;
+  padding: 26px 80px;
+  background-color: $red-button;
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+  right: 20%;
+  top: 13%;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+    background-color: $main-red;
+    transition: all 0.2s linear;
+  }
+}
+.form {
+  position: relative;
+}
+.vr-subcribe {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+}
+.vr-subcribe-sml {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}

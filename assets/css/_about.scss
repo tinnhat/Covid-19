@@ -1,0 +1,23 @@
+.about {
+  display: flex;
+  align-items: center;
+  &-img {
+    width: 840px;
+    height: 796px;
+    transform: translateX(-10%);
+  }
+}
+.box-position {
+  position: relative;
+}
+.virus-pink {
+  position: absolute;
+  right: 30%;
+  bottom: -40%;
+  z-index: -1;
+}
+.virus-pink-sml {
+  position: absolute;
+  right: -20%;
+  z-index: -1;
+}

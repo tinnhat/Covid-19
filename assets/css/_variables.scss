@@ -1,0 +1,13 @@
+$main-red: #ff383d;
+$red-text: #fa5652;
+$text-title-color: #035755;
+$red-button: #fb4c47;
+$pink-circle: #fee6e5;
+$text-black-color: #4b4f51;
+$pink-circle-hover: #fcd6d5;
+
+@mixin flex-box($align, $jus: "center") {
+  display: flex;
+  align-items: $align;
+  justify-content: $jus;
+}

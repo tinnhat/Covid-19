@@ -1,0 +1,80 @@
+@import "./font.scss";
+@import "./reset.scss";
+@import "./variables";
+@import "./header";
+@import "./about";
+@import "./contagion";
+@import "./symptomp";
+@import "./mask";
+@import "./map";
+@import "./subscribe";
+@import "./footer"; // css chung
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.ml-none {
+  margin-left: 0;
+}
+//box tittle
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: $red-text;
+  margin-bottom: 10px;
+  &-text {
+    font-size: 52px;
+    color: $text-title-color;
+    line-height: 1.2;
+    span {
+      display: block;
+    }
+  }
+}
+
+.box-content__text {
+  font-size: 20px;
+  color: $text-black-color;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  span {
+    display: block;
+  }
+}
+.btn {
+  min-width: 200px;
+  border-radius: 40px;
+
+  display: inline-block;
+  text-align: center;
+  &-red {
+    padding: 24px 50px;
+    font-size: 24px;
+    color: #fff;
+    background-color: $red-button;
+    &:hover {
+      background-color: $main-red;
+      transition: all 0.2s linear;
+    }
+  }
+  &-pink {
+    padding: 20px 50px;
+    font-size: 20px;
+    color: $red-text;
+    font-weight: bold;
+    background-color: $pink-circle;
+    &:hover {
+      color: $main-red;
+      background-color: $pink-circle-hover;
+      transition: all 0.2s linear;
+    }
+  }
+}
