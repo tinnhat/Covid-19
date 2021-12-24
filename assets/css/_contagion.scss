@@ -71,3 +71,33 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 1024px) {
+  .contagion-item__img {
+    width: 160px;
+    height: 150px;
+  }
+  .contagion-item {
+    min-height: 580px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contagion-box {
+    flex-direction: column;
+  }
+  .contagion-item__title {
+    font-size: 28px;
+  }
+  .contagion-item {
+    min-height: 400px;
+  }
+  .contagion-item:nth-child(2) {
+    margin: 16px 0;
+  }
+}
+@media screen and (max-width: 740px) {
+  .contagion-item {
+    width: 100%;
+    height: auto;
+    padding: 40px 10px 10px 10px;
+  }
+}

@@ -21,3 +21,34 @@
   right: -20%;
   z-index: -1;
 }
+@media screen and (max-width: 1024px) {
+  .about-img {
+    width: 600px;
+    height: 666px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .virus-pink-sml {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-img {
+    max-width: 400px;
+    height: auto;
+  }
+  .about {
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .about {
+    flex-direction: column;
+  }
+  .virus-pink {
+    display: none;
+  }
+  a.btn.btn-pink {
+    font-size: 18px;
+  }
+}

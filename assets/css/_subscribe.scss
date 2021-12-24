@@ -15,7 +15,7 @@
     box-shadow: 2px 1px 24px 12px rgba(0, 0, 0, 0.04);
     padding: 40px 250px 40px 40px;
     border-radius: 50px;
-    min-width: 600px;
+    max-width: 600px;
   }
 }
 .subscribe-content {
@@ -23,14 +23,14 @@
   margin-top: 150px;
 }
 .btn-submit {
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   padding: 26px 80px;
   background-color: $red-button;
   border: none;
   border-radius: 50px;
   position: absolute;
-  right: 20%;
+  right: 32%;
   top: 13%;
   cursor: pointer;
   &:hover {
@@ -51,4 +51,49 @@
   position: absolute;
   right: 10%;
   top: 20%;
+}
+@media screen and (max-width: 1024px) {
+  .subscribe-input {
+    padding: 40px;
+  }
+  .btn-submit {
+    right: 17%;
+    top: 12%;
+  }
+  .vr-subcribe {
+    display: none;
+  }
+  .vr-subcribe-sml {
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .subscribe-title {
+    font-size: 46px;
+  }
+  .subscribe-input {
+    padding: 36px 30px;
+  }
+  .btn-submit {
+    right: 7%;
+  }
+}
+@media screen and (max-width: 740px) {
+  .subscribe-title {
+    font-size: 30px;
+  }
+
+  input.subscribe-input {
+    font-size: 16px;
+    padding: 20px;
+    // width: 100%;
+  }
+  input.btn-submit {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60px;
+  }
 }

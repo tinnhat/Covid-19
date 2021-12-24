@@ -44,3 +44,22 @@
 .icon-vimeo {
   color: $text-title-color;
 }
+@media screen and (max-width: 768px) {
+  .footer-img__text {
+    font-size: 18px;
+  }
+  .footer-img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .footer-img__text {
+    font-size: 16px;
+  }
+  .icon-vimeo,
+  .icon-twitter,
+  .icon-youtube {
+    margin-left: 20px;
+  }
+}

@@ -56,3 +56,43 @@
   right: 10%;
   z-index: -1;
 }
+@media screen and (max-width: 1024px) {
+  .mask-item__img {
+    width: 100%;
+    height: auto;
+  }
+  .mask-number {
+    width: 50px;
+    height: 25px;
+    font-size: 24px;
+  }
+  .virus-pink-mask {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mask-item__img {
+    max-width: 400px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 740px) {
+  .mask-item {
+    flex-direction: column;
+  }
+  .mask-item-box__title {
+    font-size: 30px;
+  }
+  .virus-green {
+    height: 150px;
+    width: auto;
+  }
+  .mask-item:nth-child(2),
+  .mask-item:nth-child(4) {
+    flex-direction: column-reverse;
+  }
+  .virus-green-sml {
+    width: 80px;
+    height: auto;
+  }
+}

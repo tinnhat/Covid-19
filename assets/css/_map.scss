@@ -12,6 +12,8 @@
     padding: 50px;
     box-shadow: 2px 1px 24px 12px rgba(0, 0, 0, 0.04);
     border-radius: 2px;
+    z-index: 1;
+    background-color: #f2f2f2;
   }
   &-report-title {
     display: flex;
@@ -151,5 +153,37 @@
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .map-img {
+    width: 100%;
+    height: auto;
+  }
+  .report {
+    padding: 20px;
+  }
+  .country-info {
+    font-size: 24px;
+  }
+}
+@media screen and(max-width:768px) {
+  .map {
+    flex-direction: column;
+  }
+  .map-report {
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media screen and (max-width: 740px) {
+  .map-report {
+    padding: 10px;
+  }
+  .map-report-title {
+    font-size: 30px;
+  }
+  .box-country {
+    font-size: 20px;
   }
 }

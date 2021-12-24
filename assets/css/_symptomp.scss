@@ -2,3 +2,15 @@
   margin-top: 150px;
   text-align: center;
 }
+@media screen and (max-width: 1024px) {
+  .symptomp-img {
+    // display: none;
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .symptomp {
+    margin-top: 60px;
+  }
+}
